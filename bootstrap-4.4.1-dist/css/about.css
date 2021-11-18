@@ -1,0 +1,121 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	
+	color:black;
+	
+}
+.container-fluid h2
+{
+	
+	height:50px;
+}
+.container
+{
+	margin-top:30px;
+	font-size:20px;
+	background:rgb(238,235,235);
+	
+}
+h1{
+	color:black;
+}
+h2
+{
+	margin-bottom:25px;
+	color:black;
+}
+.img-wrap
+{
+	width:100%;
+	height:400px;
+}
+.img-wrap img
+{
+	width:100%;
+	height:400px;
+	padding:20px;
+	border-radius:50%;
+	display:flex;
+}
+.team-section
+{
+	overflow:hidden;
+	text-align:center;
+	padding:60px;
+}
+
+.team-section h2
+{
+	text-transform:uppercase;
+	margin-bottom:60px;
+	color:black;
+	font-size:40px;
+}
+.border
+{
+	display:block;
+	margin:auto;
+	width:160px;
+	height:3px;
+	background:#3498db;
+	margin-bottom: 40px;
+}
+.ps
+{
+	margin-bottom:40px;
+}
+.ps a
+{
+	display:inline-block;
+	margin:0px 30px;
+	width:160px;
+	height:160px;
+	overflow:hidden;
+	border-radius:50%;
+}
+.ps a img
+{
+	width:100%;
+	filter:grayscale(100%);
+	transition:0.4s all;
+}
+.ps a:hover img
+{
+	filter:none;
+}
+.section
+{
+	width:300px;
+	margin:center;
+	font-size:20px;
+	color:black;
+	text-align:justify;
+	height:0;
+	overflow:hidden;
+}
+.section:target
+{
+	height:auto;
+}
+.name
+{
+	display:block;
+	margin-bottom:30px;
+	text-align:center;
+	text-teansform:uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

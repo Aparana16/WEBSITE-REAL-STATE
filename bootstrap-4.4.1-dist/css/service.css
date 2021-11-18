@@ -1,0 +1,24 @@
+
+
+.jumbotron-fluid .container {
+  position:relative;
+  z-index:2;
+  margin-top:60px;
+  
+  background:rgba(0,0,0,0.2);
+  
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius:3px;
+}
+.jumbotron-fluid .container h3
+{
+	margin-top:10px;
+	font-size:20px;
+}
+
+img.blur {
+	-webkit-filter: blur(2px);
+	filter: blur(2px);
+  
+
+}

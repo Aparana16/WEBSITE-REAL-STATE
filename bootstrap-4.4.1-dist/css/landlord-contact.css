@@ -1,0 +1,187 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	background: url('../img/4TiYpG.jpg')no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:auto;
+	
+
+}
+.active ,.navbar-nav  li:hover
+{
+	background:gray;
+	border-radius:150px;
+}
+.navbar .dropdown-menu a:hover
+{
+	border-radius:150px;
+	background:gray;
+}
+			
+			
+			
+/*--------contact-------*/	
+.contact
+{
+	justify-content:center;
+}		
+.contact .container
+{
+	position:relative;
+	width:100%;
+	max-width:1200px;
+	margin:50px;
+	margin-left:10%;
+	height:1000px;
+	background:rgb(238,235,235);
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.contact .container .formBox
+{
+	width:50%;
+	display:flex;
+	
+	
+}
+.contact .container .formBox form
+{
+	position:relative;
+	width:100%;
+	padding:0 0 0 75px;
+}
+.contact .container .formBox form h2
+{
+	margin-top:-5px;
+	margin-left:-15px;
+	align-items:center;
+	color:#000;
+	font-size:3em;
+	text-decoration:uppercase;
+	
+}
+.contact .container .formBox form  .inputBox
+{
+	position:relative;
+	margin-bottom:10px;
+}
+.contact .container .formBox form  .inputBox:last-child
+{
+	margin-bottom:0px;
+}
+.contact .container .formBox form  .inputBox input,
+.contact .container .formBox form  .inputBox textarea
+
+{
+	position:relative;
+	background:transparent;
+	outline:none;
+	border:none;
+	width:100%;
+	max-width:500px;
+	color:black;
+	padding-bottom:10px;
+	font-size:18px;
+	letter-spacing:1px;
+	font-weight:300;
+	border-bottom:2px solid rgba(0,0,0,0.5);
+	resize:none;
+}
+.contact .container .formBox form  .inputBox textarea
+{
+	height:100px;
+}
+
+.contact .container .formBox form  button
+{
+	background:black;
+	padding:3px 5px;
+	margin-top:5px;
+	width:110px;
+	cursor:pointer;
+	color:white;
+	font-size:18px;
+	font-weight:400;
+	border-radius:30px;
+	letter-spacing:3px;
+}
+.contact .container .formBox form button:focus
+{
+	background:gray;
+	color:#111;
+}
+.contact .container .formBox form  .inputBox span
+{
+	position:absolute;
+	left:0;
+	font-size:18px;
+	font-weight:200;
+	display:inline-block;
+	letter-spacing:1px;
+	color:rgba(0,0,0,.6);
+	transition:all 0.1s;
+}
+.contact .container .formBox form  .inputBox input:focus ~ span,
+.contact .container .formBox form  .inputBox textarea:focus ~ span,
+.contact .container .formBox form  .inputBox input:valid ~ span,
+.contact .container .formBox form  .inputBox textarea:valid ~ span
+{
+	transform:translateY(-30px);
+	color:black;
+	font-size:12px;
+}
+.contact .container .formBox form  .inputBox input:focus,
+.contact .container .formBox form  .inputBox textarea:focus,
+.contact .container .formBox form  .inputBox input:valid,
+.contact .container .formBox form  .inputBox textarea:valid
+{
+	border-bottom-color:#000;
+}
+
+.contact .container .imgBx
+{
+	position:relative;
+	width:50%;
+	height:100%;
+	overflow:hidden;
+}
+.contact .container .imgBx:before
+{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	background:black;
+	transform-origin:bottom;
+	transform:skewX(-20deg) translateX(15%);
+}
+.contact .container .imgBx img
+{
+	position:absolute;
+	bottom:0;
+	max-height:95%;
+}
+@media (max-width:600px)
+{
+	.contact .container .formBox
+	{
+		width:100%;
+		padding:0 70px;
+	}
+	.contact .container .formBox form
+	{
+
+		width:100%;
+		max-width:500px;
+		padding:0 0 0 75px;
+	}
+	.contact .container .imgBx
+	{
+		display:none;
+	}
+}

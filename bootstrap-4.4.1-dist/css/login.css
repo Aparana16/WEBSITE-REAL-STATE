@@ -1,0 +1,46 @@
+body
+{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	background: url('../img/1 (1).jpg')no-repeat;
+	background-size:100% 100%;
+	width:100%;
+	height:auto;
+	
+}
+.active ,.navbar-nav  li:hover
+{
+	background:gray;
+	border-radius:150px;
+}
+.navbar .dropdown-menu a:hover
+{
+	border-radius:150px;
+	background:gray;
+}
+h2,
+h5,
+.R
+{
+	color:black;
+	
+}
+.fp
+{
+	color:black;
+}
+.na 
+{
+	color:black;
+}
+
+.form-container
+{
+	border:0px solid #000;
+	padding:15px 40px;
+	padding-bottom:40px;
+	margin-top:6vh;
+	-webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,2.50);
+	-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,2.50);
+	-box-shadow: -1px 4px 26px 11px rgba(0,0,0,2.50);
+}
